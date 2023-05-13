@@ -1,0 +1,24 @@
+@charset "UTF-8";
+body{ background-color: #558af8; color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 1.2em;
+}
+h1{
+color: #7707d9;
+}
+h2{
+color: #1f24c0;
+}
+h1#titulo{
+    background-color: #0409f4;
+    color: #dad1f4;
+    text-align: center;
+}
+.basico{
+    background-color: rgb(94, 172, 94);
+}
+.intermediario{
+    background-color: rgb(170, 170, 104);
+}
+.avancado{
+    background-color: rgb(154, 85, 85);
+}

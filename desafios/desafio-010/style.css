@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@font-face {
+    font-family:droid ;
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    background-color: #78C258;
+    
+    align-content: center;
+}
+h1{
+    font-family: droid , Arial, Helvetica, sans-serif;
+    font-size:2em;
+    color: #25550d;
+}
+h2{
+    background-image: linear-gradient(to right,#b8f9b8, #d1f0d15e);
+    font-family: droid , Arial, Helvetica, sans-serif; color: #376e1b;
+    
+}
+#titulo{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+#subtitulo{
+   color: white;
+}
+nav{
+    text-align: left;
+    padding: 8px;
+    border: 10px;
+
+}
+nav >a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    
+}
+nav >a:hover{background-color: #2f4e1f;
+width: 5px; }
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 1cm;
+}
+main{
+    background-color: white;
+    margin: auto;
+    width: 1000px;
+    padding: 5px 10px;
+    align-content: center;}
+    
+header{
+background-image:linear-gradient(#78C258,#4E8234, #28421B);
+text-align: center;
+width: 100%;}
+#rodape{
+    background-color: #b8f9b8;
+    border-radius: 30px;
+}
+h3{
+    background-color: #6eef37;
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+li::before{
+    content: &#xFE0F;}
+li{
+
+}
+
+#agradecimento{
+    background-color: white;
+}
+aside{
+    background-color: white;
+    margin: auto;
+    width: 1000px;
+    padding: 5px 10px;
+    align-content: center;
+    outline:
+    
+}
+iframe{
+    background-color: darkgreen;
+    margin: 8px 22px 15px -9px;
+    width: 1000px;
+    height: 500px;
+    padding: 5px 8px;
+    align-content: center;
+}
+footer{
+    background-color: #28421B;
+    color: white;
+    text-align: center;
+}
+h3{
+    border-radius: 30px;
+}

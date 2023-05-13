@@ -1,0 +1,42 @@
+@charset 'UTF-8';
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+h1{
+    color: red;
+    text-align: right;
+}
+h2{
+    color: rgb(0, 128, 53);
+}
+#original{
+background-color: bisque;
+color: blueviolet;
+text-align: center;
+}
+.easy{
+    background-color: lightpink;
+text-decoration: dotted;
+color: aliceblue;}
+.normal{
+    background-color: cornflowerblue;
+text-decoration: dashed;
+color: aquamarine;}
+.hard{
+    background-color: darkred;
+    text-decoration: wavy;
+    font-weight:bolder;
+    color: black;
+}
+div > p{
+ display: none;
+}
+/* hover tem que estar em <div> e não no <p>  */
+div:hover > p {
+display:block;
+color: red;
+}
