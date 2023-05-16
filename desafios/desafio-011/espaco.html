@@ -5,11 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Espaço</title>
-    <link rel="stylesheet" href="estilo/style.css">
+    <style>
+        body {
+            background-image:url(imagens/espaco.jpg);
+            background-size: cover;
+        }
+        div#astro{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50% , -50%)
+        
+    }
+
+    </style>
+
 </head>
-<body style="background-image: url(imagens/espaco.jpg);">
-    <main>
-        <img src="imagens/astronauta.png" alt="astronauta">
-    </main>
+<body>
+    <div id="astro">
+        <img src="imagens/astronauta.png" alt="astronauta no espaço">
+    </div>
 </body>
 </html>
