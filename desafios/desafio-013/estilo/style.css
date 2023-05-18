@@ -1,0 +1,21 @@
+table {
+    border: 3px solid pink;
+    width: 300px;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+    border: 3px solid pink;
+    padding: 8px;
+}
+
+th {
+    border: 3px solid pink;
+    background-color: #fce0e4;
+}
+
+.result{
+    background-color:#fce0e4 ;
+}
