@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #5f2e83;
+}
+main {
+    background-color: white;
+    margin: auto;
+    max-width: 300px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+section#cafe{
+    background-image: url(../imagens/coffe-cel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 300px;
+    height: 300px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+section#conteudo {
+    padding: 10px;
+}
+
+.itens{
+    background-color: #5f2e83;
+    border-radius: 10px;
+    margin-bottom: 3px;
+}
+
+section > h1 {
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+
+
