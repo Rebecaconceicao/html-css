@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
       <link rel="stylesheet" href="estilos/style.css">
+      <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
     <main>
@@ -19,18 +20,18 @@
                 <p class="itens">
                     <span class="material-icons">person
                         </span>
-                   <input type="email" name="email" id="iemail" autocomplete="email" placeholder="seu email">
+                   <input type="email" name="email" id="iemail" autocomplete="email" placeholder="seu email" required>
                 </p>
                 <p class="itens">
                     <span class="material-icons">
                         vpn_key
                         </span>
-                    <input type="password" name="senha" id="isenha" autocomplete="current-password" placeholder="sua senha">
+                    <input type="password" name="senha" id="isenha" autocomplete="current-password" placeholder="sua senha" required minlength="8">
                 </p>
                 <p>
-                    <input type="submit" value="Entrar"></p>
+                    <input id="entrar" type="submit" value="Entrar"></p>
                     <p>
-                    <input type="button" value="Esqueci a senha"><span class="material-icons">
+                    <input id="esqueci" type="button" value="Esqueci a senha"><span class="material-icons">
                         email
                         </span></p>
                 
